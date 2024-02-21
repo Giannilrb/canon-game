@@ -13,7 +13,7 @@ function draw() {
     e.draw();
     e.move(p);
   });
-  p.move();
+  p.move(enemies);
   p.draw();
   p.input();
 }
